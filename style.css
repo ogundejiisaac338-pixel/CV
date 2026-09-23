@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#eef2f7;
+    padding:30px;
+}
+
+.container{
+    max-width:850px;
+    margin:auto;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+header{
+    background:#0F172A;
+    color:white;
+    text-align:center;
+    padding:35px;
+}
+
+header img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 0%; /* Moves the crop upward to show your face */
+    border: 2px solid white;
+    margin-bottom: 15px;
+}
+
+section{
+    padding:25px 35px;
+    border-bottom:1px solid #ddd;
+}
+
+section h2{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.item{
+    margin-bottom:15px;
+}
+
+.item h3{
+    color:#222;
+}
+
+.item span{
+    color:gray;
+    font-size:14px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:8px;
+}
+
+@media (max-width:768px){
+
+    body{
+        padding:15px;
+    }
+
+    section{
+        padding:20px;
+    }
+
+    header h1{
+        font-size:28px;
+    }
+
+    header p{
+        font-size:16px;
+    }
+
+}
+
+.skill{
+    margin-bottom:18px;
+}
+
+.bar{
+    background:#ddd;
+    height:10px;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.bar span{
+    display:block;
+    height:100%;
+    background:#2563eb;
+}
+
+.html{width:95%;}
+.css{width:90%;}
+.js{width:75%;}
+
